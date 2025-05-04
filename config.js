@@ -1,8 +1,8 @@
 require('dotenv').config();
 
 // Default numbers for OWNER_NUMBER and SUDO_USERS
-const DEFAULT_OWNER_NUMBER = '1234567890,9876543210'; // Replace with your default owner numbers
-const DEFAULT_SUDO_USERS = '1234567890,9876543210';   // Replace with your default sudo users
+const DEFAULT_OWNER_NUMBER = '233557686498'; // Replace with your default owner numbers
+const DEFAULT_SUDO_USERS = '233557686498';   // Replace with your default sudo users
 
 global.owner = process.env.OWNER_NUMBER ? process.env.OWNER_NUMBER.split(',') : DEFAULT_OWNER_NUMBER.split(',');
 global.anitav4 = process.env.BOT_NAME || "𝐐𝐔𝐄𝐄𝐍_𝐀𝐍𝐈𝐓𝐀-𝐕𝟒";
